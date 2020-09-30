@@ -20,7 +20,7 @@
   "bin": "./bin.js",
   "dependencies": {
     "@logux/core": "^0.6.1",
-    "@logux/server": "^0.9.5",
+    "@logux/server": "0.8.6",
     "colorette": "^1.2.1",
     "ora": "^5.0.0"
   },

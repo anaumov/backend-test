@@ -78,8 +78,11 @@ async function send (url, data) {
 }
 
 function nameAction (userId, name) {
-  return { type: 'users/name', payload: { userId, name } }
+  // return { type: 'users/name', payload: { userId, name } }
+  return 'users/name'
 }
+
+// ["resend","1601452627560 1:szvZL8Xw:vC1BG27B 0",{"channels":["reading/typography:1"]}]
 
 function checkActions (actions, ideal) {
   assert(

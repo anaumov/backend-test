@@ -56,9 +56,9 @@ async function runTest (data) {
     }
   } finally {
     server.destroy()
-    for (let client of server.connected.values()) {
-      client.destroy()
-    }
+    // for (let client of server.connected.values()) {
+    //   client.destroy()
+    // }
   }
 }
 
